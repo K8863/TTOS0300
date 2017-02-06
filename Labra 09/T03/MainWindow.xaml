@@ -1,0 +1,25 @@
+﻿<Window x:Class="T03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T03"
+        mc:Ignorable="d"
+        Title="Ikkunalaskuri" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="inputLength" HorizontalAlignment="Left" Height="23" Margin="266,48,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBlock x:Name="labelLength" HorizontalAlignment="Left" Margin="130,51,0,0" TextWrapping="Wrap" Text="Ikkunan leveys (mm):" VerticalAlignment="Top" Width="131"/>
+        <TextBox x:Name="inputHeight" HorizontalAlignment="Left" Height="23" Margin="266,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBlock x:Name="labelHeight" HorizontalAlignment="Left" Margin="130,79,0,0" TextWrapping="Wrap" Text="Ikkunan korkeus (mm):" VerticalAlignment="Top" Width="131"/>
+        <TextBox x:Name="inputWidth" HorizontalAlignment="Left" Height="23" Margin="266,104,0,0" TextWrapping="Wrap" Text="45" VerticalAlignment="Top" Width="108"/>
+        <TextBlock x:Name="labelWidth" HorizontalAlignment="Left" Margin="130,107,0,0" TextWrapping="Wrap" Text="Karmipuun leveys (mm):" VerticalAlignment="Top" Width="131"/>
+        <Button x:Name="buttonLaske" Content="Laske" HorizontalAlignment="Left" Margin="266,150,0,0" VerticalAlignment="Top" Width="75" Click="buttonLaske_Click"/>
+        <TextBox x:Name="resultWinArea" HorizontalAlignment="Left" Height="23" Margin="266,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBlock x:Name="labelWinArea" HorizontalAlignment="Left" Margin="130,199,0,0" TextWrapping="Wrap" Text="Ikkunan pinta-ala:" VerticalAlignment="Top" Width="131"/>
+        <TextBox x:Name="resultGlassArea" HorizontalAlignment="Left" Height="23" Margin="266,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBlock x:Name="labelGlassArea" HorizontalAlignment="Left" Margin="130,227,0,0" TextWrapping="Wrap" Text="Lasin pinta-ala:" VerticalAlignment="Top" Width="131"/>
+        <TextBox x:Name="resultFrame" HorizontalAlignment="Left" Height="23" Margin="266,252,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBlock x:Name="labelFrame" HorizontalAlignment="Left" Margin="130,255,0,0" TextWrapping="Wrap" Text="Karmin piiri:" VerticalAlignment="Top" Width="131"/>
+
+    </Grid>
+</Window>
