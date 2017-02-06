@@ -22,13 +22,12 @@ namespace T01
     {
         private int countTrucks;
         private int countCars;
+
         public MainWindow()
         {
             InitializeComponent();
             countTrucks = 0;
             countCars = 0;
-            textBlockTrucks.Text = countTrucks.ToString();
-            textBlockCars.Text = countCars.ToString();
         }
 
         private void buttonTrucks_Click(object sender, RoutedEventArgs e)
