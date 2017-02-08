@@ -18,8 +18,8 @@
         </Grid.RowDefinitions>
         <TextBlock x:Name="txbLogin" Grid.Column="0" Text="Login:" Margin="5"/>
         <TextBlock x:Name="txbPsswd" Grid.Row="1" Grid.Column="0" Text="Password:" Margin="5"/>
-        <TextBox x:Name="txtLogin" Grid.Row="0" Grid.Column="1" Text="" Margin="5" Width="100"/>
-        <TextBox x:Name="txtPsswd" Grid.Row="1" Grid.Column="1" Text="" Margin="5" Width="100"/>
-        <Button x:Name="btnLogin" Grid.Row="3" Grid.Column="1" Content="Login" Margin="5" Click="Button_Click"/>
+        <TextBox x:Name="txtLogin" Grid.Row="0" Grid.Column="1" Margin="5" Width="100"/>
+        <TextBox x:Name="txtPsswd" Grid.Row="1" Grid.Column="1" Margin="5" Width="100"/>
+        <Button x:Name="btnLogin" Grid.Row="3" Grid.Column="1" Content="Login" Margin="5" Click="btnLogin_Click"/>
     </Grid>
 </Window>
