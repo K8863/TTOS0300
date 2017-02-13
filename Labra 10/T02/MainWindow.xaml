@@ -16,7 +16,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBlock x:Name="txbLogin" Grid.Column="0" Text="Login:" Margin="5"/>
+        <TextBlock x:Name="txbLogin" Grid.Row="0" Grid.Column="0" Text="Login:" Margin="5"/>
         <TextBlock x:Name="txbPsswd" Grid.Row="1" Grid.Column="0" Text="Password:" Margin="5"/>
         <TextBox x:Name="txtLogin" Grid.Row="0" Grid.Column="1" Margin="5" Width="100"/>
         <TextBox x:Name="txtPsswd" Grid.Row="1" Grid.Column="1" Margin="5" Width="100"/>
